@@ -36,3 +36,63 @@
     transform: rotate(360deg);
   }
 }
+.header{
+  height: 70px;
+  width: 100%;
+  margin-bottom: 30px;
+  color: white;
+  background: black;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.header span {
+  margin-top:-5px
+}
+body{
+  background: #202142;
+}
+.card{
+  background-color: #fff;
+  color:#333;
+  border-radius:15px;
+  padding: 10px 20px;
+  position: relative;
+  margin:0 auto;
+  width: 40%;
+  margin-top:20px;
+}
+.rating{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  margin:30px 0 40px;
+}
+.cardRating{
+  position: absolute;
+  background: #f4f4f4;
+  width:20px;
+  height: 20px;
+  padding:10px;
+  text-align: center;
+  border-radius: 50%;
+  font-size:19px;
+  border:1px #eee solid;
+  transition: 0.3s;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  left:-13px;
+  top:-20px;
+  background: #e91e63;
+  color:white;
+}
+.card.reverse{
+  background: rgba(0,0,0,0.4);
+  color:#fff;
+}
+.button{
+  
+}
